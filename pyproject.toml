@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask_example"
+version = "0.1.0"
+description = ""
+authors = ["Foster Lee <fosterlee@fosterlee.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pytest-cov = "^2.11.1"
+hypothesis = "^6.2.0"
+pytest-pythonpath = "^0.7.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
